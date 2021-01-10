@@ -6,7 +6,7 @@ This is a temporary script file.
 """
 while True:
     a=input("請輸入數列的前四項並以空格分開,0≦首項≦20\n")
-    numbers=a.split( )
+    numbers=a.split()
     numbers=list(map(int, numbers))
     d1=numbers[1]-numbers[0]
     d2=numbers[2]-numbers[1]
